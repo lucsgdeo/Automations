@@ -11,7 +11,7 @@ $appsNames = @(
     "Opencode",
     "Git.Git",
     "Mozilla.Thunderbird",
-    "Microsoft.NuGet"
+    "Microsoft.NuGet",
     "Steam"
 )
 
