@@ -11,11 +11,9 @@ $appsNames = @(
     "Opencode",
     "Git.Git",
     "Mozilla.Thunderbird",
-    "Microsoft.NuGet"
-    "Steam"
-)
-
-$appsIds = @(
+    "Microsoft.NuGet",
+    "Steam",
+    "Microsoft.WSL"
 )
 
 foreach ($app in $appsNames) {
