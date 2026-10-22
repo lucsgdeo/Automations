@@ -12,8 +12,15 @@ $appsNames = @(
     "Git.Git",
     "Mozilla.Thunderbird",
     "Microsoft.NuGet",
+<<<<<<< HEAD
     "Steam",
     "Microsoft.WSL"
+=======
+    "Steam"
+)
+
+$appsIds = @(
+>>>>>>> a7d5b1a95a54fbd468f0b34a77e8b8d4ccf47226
 )
 
 foreach ($app in $appsNames) {
