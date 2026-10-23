@@ -12,7 +12,8 @@ $appsNames = @(
     "Discord.Discord",
     "Mozilla.Thunderbird",
     "Microsoft.NuGet",
-    "Microsoft.WSL"
+    "Microsoft.WSL",
+    "cURL.cURL"
 )
 
 foreach ($app in $appsNames) {
@@ -24,7 +25,7 @@ foreach ($app in $appsNames) {
     # Verifica o código de saída: 0 indica que o pacote foi encontrado
     if ($LASTEXITCODE -eq 0) {
         Write-Host "Aplicativo '$app' detectado. Tentando atualizar..." -ForegroundColor Yellow
-        winget upgrade --id $app --exact --accept-package-agreements --accept-source-agreements
+        winget upgrade --id $app --exact --accept-package-agreements --accept-source-agreements --exclude Microsoft.WindowsTerminal
     } else {
         Write-Host "Aplicativo '$app' não encontrado. Instalando..." -ForegroundColor Green
         winget install --id $app --exact --accept-package-agreements --accept-source-agreements
