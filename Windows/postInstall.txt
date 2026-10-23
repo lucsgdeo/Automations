@@ -1,4 +1,4 @@
-1. Visite o site para terminar a configuração do Oh My Posh                 - https://ohmyposh.dev/docs/installation/fonts"
+1. Visite o site para terminar a configuração do Oh My Posh                 - https://ohmyposh.dev/docs/installation/fonts
 2. Este vídeo pode te ajudar a configurar o terminal e deixá-lo mais bonito - https://youtu.be/-G6GbXGo4wo?si=JScmnB0QGrFxQ7or
-3. Instale as fontes do NerdFonts (Meslo alguma coisa)                      - oh-my-posh font install meslo
-4. Baixe os drivers mais atualizados da placa de vídeo:                     - https://www.amd.com/pt/support/downloads/drivers.html/graphics/radeon-rx/radeon-rx-6000-series/amd-radeon-rx-6600-xt.html"
+3. Instale as fontes do NerdFonts (Meslo alguma coisa)                      - https://github.com/ryanoasis/nerd-fonts/releases/download/v3.5.1/Meslo.zip
+4. Baixe os drivers mais atualizados da placa de vídeo:                     - https://www.amd.com/pt/support/downloads/drivers.html/graphics/radeon-rx/radeon-rx-6000-series/amd-radeon-rx-6600-xt.html
