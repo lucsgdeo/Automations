@@ -25,7 +25,7 @@ foreach ($app in $appsNames) {
     # Verifica o código de saída: 0 indica que o pacote foi encontrado
     if ($LASTEXITCODE -eq 0) {
         Write-Host "Aplicativo '$app' detectado. Tentando atualizar..." -ForegroundColor Yellow
-        winget upgrade --id $app --exact --accept-package-agreements --accept-source-agreements --exclude Microsoft.WindowsTerminal
+        winget upgrade --id $app --exact --accept-package-agreements --accept-source-agreements
     } else {
         Write-Host "Aplicativo '$app' não encontrado. Instalando..." -ForegroundColor Green
         winget install --id $app --exact --accept-package-agreements --accept-source-agreements
