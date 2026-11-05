@@ -27,10 +27,6 @@ if (-not $servidor -or -not $pasta -or -not $letraUnidade) {
     return
 }
 
-if ($servidor -notmatch '^172\.29\.') {
-    Write-Host "[AVISO] O servidor $servidor nao esta na faixa 172.29.x.x" -ForegroundColor Yellow
-}
-
 $caminhoUNC = "\\$servidor\$pasta"
 
 Write-Host "[INFO] Servidor: $servidor" -ForegroundColor Yellow
